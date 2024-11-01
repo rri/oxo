@@ -1,0 +1,18 @@
+[package]
+name = "oxo"
+version = "0.1.0"
+edition = "2021"
+description = "a general-purpose programming language for the cloud"
+authors = ["Ramnath R Iyer <rri@oxo.center"]
+keywords = ["compilers", "programming-languages"]
+categories = ["compilers"]
+homepage = "https://oxo.center"
+documentation = "https://oxo.center/doc"
+repository = "https://oxo.center/src"
+license = "GPL-3.0-only"
+readme = "README.md"
+
+[dependencies]
+anyhow = { version = "1" }
+clap = { version = "4.5", features = ["cargo", "derive", "env", "unicode"] }
+thiserror = { version = "1" }
